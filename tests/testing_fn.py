@@ -1,7 +1,7 @@
 from src import math_operation
 
 def test_add():
-    assert math_operation.add(1,2) == 3
+    assert math_operation.add(1,2) == 6
     assert math_operation.add(3,4) == 7
 
 def test_sub():
